@@ -1,3 +1,6 @@
+/**
+ * OK!!!
+ */
 import { container, inject } from 'tsyringe';
 
 import ICustomersRepository from '@modules/customers/repositories/ICustomersRepository';

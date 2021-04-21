@@ -26,6 +26,8 @@ class OrdersRepository implements IOrdersRepository {
     const order = this.ormRepository.findOne(id, {
       relations: ['order_products', 'customer'],
     });
+
+    return order;
   }
 }
 

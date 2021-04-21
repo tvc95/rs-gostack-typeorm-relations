@@ -1,3 +1,6 @@
+/**
+ * OK!
+ */
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export default class CreateOrdersProducts1618270414134
@@ -25,12 +28,12 @@ export default class CreateOrdersProducts1618270414134
             type: 'int',
           },
           {
-            name: 'createdAt',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'updatedAt',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },

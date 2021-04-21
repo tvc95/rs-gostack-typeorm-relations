@@ -1,3 +1,6 @@
+/**
+ * ok!!!
+ */
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export default class CreateOrders1618270214677 implements MigrationInterface {
@@ -14,12 +17,12 @@ export default class CreateOrders1618270214677 implements MigrationInterface {
             default: 'uuid_generate_v4()',
           },
           {
-            name: 'createdAt',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'updatedAt',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },
